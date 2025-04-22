@@ -36,3 +36,38 @@ main {
     background: url('../imagens/frame-iphone.png') no-repeat;
 
 }
+
+#tela {
+    position: relative;
+    top: 83px;
+    left: 25px;
+    width: 261px;
+    height: 465px;
+}
+
+#rede-social {
+    text-align: right;
+    
+    
+}
+
+
+
+section#rede-social > a >img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+#rede-social > a img:hover {
+    transform: translate(-5px) rotate(-40deg);
+    transition: 0.5s, transform 1s ;
+    box-shadow: 0px 0px 20px black;
+}
+
+section#rede-social > a {
+    text-decoration: none;
+}
